@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* body{
+    @apply darkColor-2 text-zinc-100
+} */
+
+
+body{
+    @apply bg-[#242423] min-h-screen w-full text-[#E5E5E5];
+    overscroll-behavior: none;
+}
+.inputFieldRegister {
+    @apply border-b border-zinc-700 bg-transparent p-2 text-xl transition-colors  ease-in-out focus:border-[#dfe22c] focus:outline-none
+}
+
+
+.navItem {
+    @apply block py-2 pl-3 pr-4 rounded bg-transparent  p-0
+}
+
+.navItemActive {
+    @apply block py-2 pl-3 pr-4 rounded bg-transparent text-[#f5cb5c] p-0 text-base
+}
+/* text-[hsl(280,100%,70%)] */
+
+.navInactive{
+    @apply block py-2 pl-3 pr-4 rounded bg-transparent  p-0 text-base
+}
+
+.formButton {
+    @apply rounded-t-xl border-b border-[#dfe22c] py-2 px-4 text-center text-lg hover:bg-zinc-800
+}
